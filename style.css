@@ -21,7 +21,10 @@
     display: flex;
     flex-direction: row;
     justify-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+   
+   
+    
 }
 .up{
     height: 100%;
