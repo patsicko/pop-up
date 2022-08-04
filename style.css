@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 247, 228);
+    color: #ffffff;
+}
 .hide{
     visibility: hidden;
 }
@@ -22,6 +29,10 @@
     flex-direction: row;
     justify-items: center;
     justify-content: space-around;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+   color: green;
+   cursor: pointer;
    
    
     
