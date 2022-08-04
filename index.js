@@ -7,7 +7,7 @@ let tg=Array.from(tgo);
 console.log(tg);
  
 
-tg.map(item=>item.firstElementChild.addEventListener("click",e=>{
+tg.map((item)=>item.firstElementChild.addEventListener("click",e=>{
     e.target.nextElementSibling.classList.toggle("hide");
     console.log(e.target.nextElementSibling);  
 }))
@@ -52,3 +52,6 @@ song.addEventListener("click",e=>{
     e.target.style.color="red";
     video.classList.toggle("showVideo");
 })
+
+
+
